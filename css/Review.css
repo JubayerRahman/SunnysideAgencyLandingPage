@@ -1,0 +1,52 @@
+.ClientsReview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    color: rgb(34,41,50);
+    height: 80vh;
+}
+.ClientsReview p{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(232, 10%, 55%);
+}
+.ClientsReview img{
+    border-radius: 50px;
+    width: 100px;
+}
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.clint1, .clint2, .clint3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+#post{
+    font-size: 14px;
+}
+@media (max-width:768px) {
+    .ClientsReview{
+        height: auto;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clint1, .clint2, .clint3{
+        width: 90vw;
+    }
+}
