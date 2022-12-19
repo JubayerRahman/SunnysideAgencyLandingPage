@@ -27,6 +27,7 @@ h1{
         background-repeat: no-repeat;
         background-position: center;
         height: 90vh;
+        width:100vw;
     }
     h1{
         text-align: center;
